@@ -6,6 +6,7 @@
     <title>联系我们 - Nailinai.site</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -25,40 +26,75 @@
 
     <section class="contact-content">
         <div class="container">
-            <h1>联系我们</h1>
-            <p class="contact-intro">欢迎与我们分享您的想法、建议或合作意向。</p>
-            
-            <div class="contact-form">
-                <form id="contactForm">
-                    <div class="form-group">
-                        <label for="name">您的姓名</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">电子邮箱</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">主题</label>
-                        <input type="text" id="subject" name="subject">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">留言内容</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">发送信息</button>
-                </form>
+            <div class="section-title">
+                <h2>联系我们</h2>
+                <p>欢迎与我们分享您的想法、建议或合作意向</p>
             </div>
             
-            <div class="contact-info">
-                <h2>其他联系方式</h2>
-                <p><strong>邮箱：</strong> contact@nailinai.site</p>
-                <p><strong>位置：</strong> 中国</p>
-                <p><strong>社交媒体：</strong></p>
-                <div class="social-links">
-                    <a href="#" class="social-link">微信</a>
-                    <a href="#" class="social-link">微博</a>
-                    <a href="#" class="social-link">知乎</a>
+            <div class="contact-container">
+                <div class="contact-form fade-in">
+                    <h3><i class="fas fa-paper-plane"></i> 发送消息</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">您的姓名</label>
+                            <input type="text" id="name" name="name" placeholder="请输入您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">电子邮箱</label>
+                            <input type="email" id="email" name="email" placeholder="请输入您的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">主题</label>
+                            <input type="text" id="subject" name="subject" placeholder="消息主题">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">留言内容</label>
+                            <textarea id="message" name="message" rows="5" placeholder="请输入您的留言内容" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">
+                            <i class="fas fa-paper-plane"></i> 发送信息
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info slide-in-right">
+                    <h3><i class="fas fa-address-card"></i> 联系方式</h3>
+                    <p>
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@nailinai.site</span>
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>中国</span>
+                    </p>
+                    <p>
+                        <i class="fas fa-globe"></i>
+                        <span>www.nailinai.site</span>
+                    </p>
+                    
+                    <h3 class="mt-30"><i class="fas fa-share-alt"></i> 社交媒体</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="微信">
+                            <i class="fab fa-weixin"></i>
+                        </a>
+                        <a href="#" class="social-link" title="微博">
+                            <i class="fab fa-weibo"></i>
+                        </a>
+                        <a href="#" class="social-link" title="知乎">
+                            <i class="fab fa-zhihu"></i>
+                        </a>
+                        <a href="#" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-map">
+                        <h3><i class="fas fa-map"></i> 位置</h3>
+                        <div class="map-placeholder">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <p>地图加载中...</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,6 +103,11 @@
     <footer>
         <div class="container">
             <p>&copy; 2024 Nailinai.site. 保留所有权利。</p>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-weibo"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            </div>
         </div>
     </footer>
 

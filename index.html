@@ -6,6 +6,7 @@
     <title>Nailinai - 欢迎访问</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -23,27 +24,81 @@
         </div>
     </header>
 
+    <!-- 轮播区域 -->
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="bizhihui_com_20231111130116169967887652052.jpg" alt="创意思维">
+                <div class="carousel-content">
+                    <h2 class="fade-in">创意思维</h2>
+                    <p class="fade-in">探索无限可能，释放创造力</p>
+                    <a href="about.html" class="btn fade-in">了解更多</a>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="bizhihui_com_20231111175006169969620684613.jpg" alt="探索未来">
+                <div class="carousel-content">
+                    <h2><span class="highlight">探索</span>未来</h2>
+                    <p>拥抱新技术，开创新领域</p>
+                    <a href="about.html" class="btn pulse">了解更多</a>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="bizhihui_com_202504061743928261788631 (1).jpg" alt="连接世界">
+                <div class="carousel-content">
+                    <h2>连接世界</h2>
+                    <p>跨越边界，共创未来</p>
+                    <a href="about.html" class="btn">了解更多</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-dots">
+            <div class="carousel-dot active"></div>
+            <div class="carousel-dot"></div>
+            <div class="carousel-dot"></div>
+        </div>
+        <div class="carousel-arrow prev">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="carousel-arrow next">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </section>
+
     <section class="hero">
         <div class="container">
-            <h1>欢迎来到 Nailinai.site</h1>
-            <p>这是一个全新的开始，我们正在建设中...</p>
-            <a href="about.html" class="btn">了解更多</a>
+            <h1 class="slide-in-left">欢迎来到 Nailinai.site</h1>
+            <p class="slide-in-right">这是一个全新的开始，我们正在建设中...</p>
+            <a href="about.html" class="btn fade-in">了解更多</a>
         </div>
     </section>
 
     <section class="features">
         <div class="container">
-            <div class="feature-box">
+            <div class="section-title">
+                <h2>我们的特色</h2>
+                <p>探索我们提供的独特价值和服务</p>
+            </div>
+            <div class="feature-box fade-in">
+                <div class="feature-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
                 <h3>创意</h3>
-                <p>分享创意思考和独特见解</p>
+                <p>分享创意思考和独特见解，激发灵感</p>
             </div>
-            <div class="feature-box">
+            <div class="feature-box fade-in">
+                <div class="feature-icon">
+                    <i class="fas fa-compass"></i>
+                </div>
                 <h3>探索</h3>
-                <p>探索新的可能性和机会</p>
+                <p>探索新的可能性和机会，开拓视野</p>
             </div>
-            <div class="feature-box">
+            <div class="feature-box fade-in">
+                <div class="feature-icon">
+                    <i class="fas fa-network-wired"></i>
+                </div>
                 <h3>连接</h3>
-                <p>与志同道合的人建立联系</p>
+                <p>与志同道合的人建立联系，共同成长</p>
             </div>
         </div>
     </section>
@@ -51,6 +106,11 @@
     <footer>
         <div class="container">
             <p>&copy; 2024 Nailinai.site. 保留所有权利。</p>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-weibo"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            </div>
         </div>
     </footer>
 
